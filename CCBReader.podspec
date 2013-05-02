@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 	s.authors      = { 'Viktor Lidholt' => 'viktor@lidholt.com' }
 	s.source       = { :git => "https://github.com/KingOfTheHuns/CCBReader.git", :tag => "0.0.1" }
 	s.source_files = '**/*.{h,m,c}'
-	s.public_header_files = 'CCBReader/**/*.h', 'CCControlExtension/CCControlExtension.h', 'CCScrollView/CCScrollView.h', 'SSZipArchive/SSZipArchive.h' 
+	s.public_header_files = 'CCBReader/**/*.h', 'CCControlExtension/**/*.h', 'CCScrollView/CCScrollView.h', 'SSZipArchive/SSZipArchive.h' 
 	s.dependency 'cocos2d', '~> 2.1.rc0'
 end
